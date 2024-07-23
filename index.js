@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
   overlayCloseBtn.addEventListener("click", hideSummary);
 
   function hideSummary() {
-    document.body.classList.remove("overlay-ative");
+    document.body.classList.remove("overlay-active");
     overlay.classList.remove("fade-in");
     overlay.classList.add("fade-out");
   }
 
   function showSummary() {
-    document.body.classList.add("overlay-ative");
+    document.body.classList.add("overlay-active");
     overlay.classList.remove("fade-out");
     overlay.classList.add("fade-in");
   }
