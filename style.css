@@ -20,7 +20,19 @@ main {
   margin: auto;
 }
 
+.overlay-active main article::before {
+  content: "X";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
 article {
+  position: relative;
   text-align: justify;
 }
 
